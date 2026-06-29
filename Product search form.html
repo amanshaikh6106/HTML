@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Search Form</title>
+</head>
+<body>
+
+  <marquee behavior ="slide" scrollamount="50" style="background-color: rgb(226, 247, 159)"> <h2>Search Products</h2></marquee>
+
+  <hr>
+
+  <form>
+
+    <b>Search Product:</b>
+    <br>
+    <input type="text" id="searchbox" placeholder="Type product name...">
+    <br>
+
+    <div id="suggestions"></div>
+    <br>
+
+    <b>Product Category:</b>
+    <br>
+    <select>
+      <option value="">-- Select Category --</option>
+      <option>Computers & Laptops</option>
+      <option>Mobile Phones</option>
+      <option>Keyboards & Mouse</option>
+      <option>Monitors & Displays</option>
+      <option>Printers & Scanners</option>
+      <option>Accessories</option>
+    </select>
+    <br><br>
+
+    <b>Preferred Brand:</b>
+    <br>
+    <select>
+      <option value="">-- Select Brand --</option>
+      <option>Dell</option>
+      <option>HP</option>
+      <option>Lenovo</option>
+      <option>Apple</option>
+      <option>Samsung</option>
+      <option>Sony</option>
+      <option>Asus</option>
+    </select>
+    <br><br>
+
+    <b>Price Range:</b>
+    <br>
+    Minimum: <input type="number" placeholder="Min price" style="width:120px">
+    &nbsp;&nbsp;
+    Maximum: <input type="number" placeholder="Max price" style="width:120px">
+    <br><br>
+
+    <input type="submit" value="Search">
+    &nbsp;
+    <input type="reset" value="Clear" >
+
+  </form>
+  
+</body>
+</html>
